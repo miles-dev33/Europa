@@ -88,7 +88,9 @@
 }
 
 .main-title .thin {
-	font-weight: 200;
+	font-weight: 300;
+	font-size:1em;
+	font-size-adjust: 50%;
 }
 
 @media only screen and (max-width : 768px) {
