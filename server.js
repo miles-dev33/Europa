@@ -18,7 +18,7 @@ var mongoRef = require("./mongo.js")
 //Creates the web app that is going to be served
 var app = express();
 //declars the port- NOTE - This is to be changed to the port number that our hosting server uses after we are done testing all of our sites features.
-var PORT = process.env.PORT || 8000;
+var PORT = process.env.PORT || 8080;
 //These to lines connect to the database this is the port number of our mongoDB
 // mongoose.Promise = global.Promise;
 // mongoose.connect("mongodb://localhost:27017/tradetraks");
@@ -48,6 +48,8 @@ app.use(bodyParser.text());
 
 app.use(bodyParser.json({ type: "application/vnd.api+json" }));
 
+
+
 app.get("/", function(req, res)
 {
 
@@ -65,6 +67,9 @@ app.get("/login", function(req, res)
 });
 
 app.use(express.static(path.join(__dirname, '/public')));
+
+// app.use(express.static(__dirname + '/public'));
+
 app.use(express.static(path.join(__dirname, '/js')));
 
 
