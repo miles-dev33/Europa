@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1"> 
+		<title>Europa</title>
+		<meta name="description" content="Examples for creative website header animations using Canvas and JavaScript" />
+		<meta name="keywords" content="header, canvas, animated, creative, inspiration, javascript" />
+		<meta name="author" content="Codrops" />
+		<link rel="shortcut icon" href="../favicon.ico">
+		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="css/demo.css" />
+		<link rel="stylesheet" type="text/css" href="css/component.css" />
+		<link href='http://fonts.googleapis.com/css?family=Raleway:200,400,800' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" type="text/css" href="css/navbar.css"/>
+		<link rel="stylesheet" type="text/css" href="css/imagegallery.css"
+		<!--[if IE]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+
+
+		<!-- HEADDDDDDDDDDDDDDDDDD -->
+		<ul >
+				<li><a href="#home">Home</a></li>
+				<li><a href="#news">About</a></li>
+				<li class="dropdown">
+					<a href="javascript:void(0)" class="dropbtn">Overview</a>
+					<div class="dropdown-content">
+					<a href="#">What is Europa?</a>
+					<a href="#">Geology of Europa</a>
+					<a href="#">Geological inferences</a>
+					<a href="#">Europa's external influences</a>
+					<a href="#">Magentospheres effects</a>
+					<a href="#">Plumes and ridges</a>
+					<a href="#">Technology behind finding new life</a>
+					<a href="#">Geological projections</a>
+
+					</div>
+				</li>
+
+				<div style="float:right;">	
+					<!-- <li>
+							<a hfref = "#">	 Sign In </a>
+							<button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Register</button>								
+					 <li> -->
+				 </div>
+
+					<!-- 
+					<div id="id01" class="modal">
+							<span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">×</span>
+							<form class="modal-content animate" action="/action_page.php">
+								<div class="container">
+								<label><b>Email</b></label>
+								<input type="text" placeholder="Enter Email" name="email" required>
+							
+								<label><b>Password</b></label>
+								<input type="password" placeholder="Enter Password" name="psw" required>
+							
+								<label><b>Repeat Password</b></label>
+								<input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+								<input type="checkbox" checked="checked"> Remember me
+								<p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
+							
+								<div class="clearfix">
+									<button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+									<button type="submit" class="signupbtn">Sign Up</button>
+								</div>
+								</div>
+							</form>
+							</div>
+							 -->
+							<script>
+							// Get the modal
+							var modal = document.getElementById('id01');
+							
+							// When the user clicks anywhere outside of the modal, close it
+							window.onclick = function(event) {
+								if (event.target == modal) {
+									modal.style.display = "none";
+								}
+							}
+							</script>
+						
+				</ul>
+	
+	</head>
+	<body>
+					<div class="container demo-1">
+						<div class="content">
+							<div id="large-header" class="large-header">
+								<canvas id="demo-canvas"></canvas>
+								<h1 class="main-title"> Europa <span class="thin">  </span></h1>
+								<!-- <h2><span class="thin" style = "z-index:2000">A geological approach of examining Europa  </span></h2> -->
+							</div>
+							<!-- <div class="codrops-top clearfix">
+								<a class="codrops-icon codrops-icon-prev" href="http://tympanus.net/Development/OffCanvasMenuEffects/"><span>Previous Demo</span></a>
+								<a class="codrops-icon codrops-icon-drop" href="http://tympanus.net/codrops/?p=20153"><span>Back to the Codrops Article</span></a>
+							</div> -->
+							<!-- <div class="codrops-header">
+								<h1 style = "padding-top:200px">What is Europa?<span style = "color:black"> Europa, is the smallest of the four Galilean moons orbiting Jupiter,
+												and the sixth-closest to the planet. It is also the sixth-largest moon in the Solar System.</span></h1>
+								
+							</div> -->
+						</div>
+						<!-- Related demos -->
+					
+
+
+						<!-- <p class="ref">Image credits: <a href="http://www.eso.org/public/images/eso1205a/">ESO/VISTA/J. Emerson. Acknowledgment: Cambridge Astronomical Survey Unit</a></p> -->
+					</div><!-- /container -->
+					<script src="js/TweenLite.min.js"></script>
+					<script src="js/EasePack.min.js"></script>
+					<script src="js/rAF.js"></script>
+					<script src="js/demo-1.js"></script>
+	</body>
+	
+</html>
