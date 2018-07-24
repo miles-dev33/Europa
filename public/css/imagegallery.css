@@ -65,7 +65,6 @@ div.desc {
     -webkit-column-rule-color: #ff0000; /* Chrome, Safari, Opera */
     -moz-column-rule-color: #ff0000; /* Firefox */
     column-rule-color: #ff0000;
-    box-shadow: 10px 10px 5px #888888;
     background-color: white;
 }
 
